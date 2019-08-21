@@ -24,8 +24,8 @@ parser.add_argument('--chr_start','-start',type=int,help="chromosome start by,de
 parser.add_argument('--chr_end','-end',type=int,help="chromosome end by,default = 23", default=23)
 parser.add_argument('--kmer_len','-k', type=int,help="The length of generated kmers,default = 100", default=100)
 parser.add_argument('--mapq_thres','-mapq', type=int,help="The MAPQ threshold to filter bowtie2 map result, default = 20", default=20)
-parser.add_argument('--chr_thread','-cthread',type=int,help="number of threads for processing chromosome, default = 8 (recommended)", default=8)
-parser.add_argument('--bowtie_thread','-bthread',type=int,help="number of threads for bowtie2 mapping, default = 20", default=20)
+parser.add_argument('--chr_thread','-cthread',type=int,help="number of threads for processing chromosome, default = 2", default=2)
+parser.add_argument('--bowtie_thread','-bthread',type=int,help="number of threads for bowtie2 mapping, default = 10", default=10)
 
 args = parser.parse_args()
 
