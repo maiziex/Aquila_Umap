@@ -187,7 +187,7 @@ def run(fa_folder,out_dir,chrseq,chrnum,kmer_len,qual,mapq_thres,bowtie_thread,x
 # In[1]:
 
 
-def main()::
+def main():
     fa_folder = args.fa_folder+"/"
     fa_name = args.fa_name
     out_dir = args.out_dir+"/"
