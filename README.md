@@ -1,6 +1,9 @@
 # Aquila_Umap
 [![BioConda Install](https://img.shields.io/conda/dn/bioconda/aquila_umap.svg?style=flag&label=BioConda%20install)](https://anaconda.org/bioconda/aquila_umap)
 ```
+conda install aquila_umap
+```
+```
 aquila_umap --fa_folder /path/to/fasta/ --fa_name sample.fa  --out_dir /path/to/result/ --chr_start 1 --chr_end 1 --chr_thread 4
 ```
 #### *Required parameters
