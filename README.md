@@ -3,6 +3,8 @@
 ```
 conda install aquila_umap
 ```
+(Please ensure channels are properly setup for bioconda before installing)
+#### Usage
 ```
 aquila_umap --fa_folder /path/to/fasta/ --fa_name sample.fa  --out_dir /path/to/result/ --chr_start 1 --chr_end 1 --chr_thread 4
 ```
